@@ -61,7 +61,7 @@ if __name__ == "__main__":
     sources = []#[testbench_path / 'testbench.sv']
     defines = {}
 
-    MACRO_NL = testbench_path / '../macro/nl/heichips25_template.nl.v'
+    MACRO_NL = testbench_path / '../macro/nl/heichips25_CORDIC.nl.v'
 
     if gl:
         if not MACRO_NL.exists():

@@ -1,7 +1,15 @@
 # LibreLane configuration file
 
-DESIGN_NAME: heichips25_template
-VERILOG_FILES: dir::../src/heichips25_template.sv
+DESIGN_NAME: heichips25_CORDIC
+VERILOG_FILES: 
+- dir::../src/heichips25_CORDIC.sv
+- dir::../src/angle_cordic_12b.v
+- dir::../src/angle_cordic_12b_pmod.v
+- dir::../src/angle_gen_12b.v
+- dir::../src/cordic_12b.v
+- dir::../src/pmod_pwm.v
+- dir::../src/vga_top.v
+
 CLOCK_PORT: clk
 CLOCK_PERIOD: 10 # 10ns = 100MHz
 
